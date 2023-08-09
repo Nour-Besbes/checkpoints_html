@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Checkpoints Portfolio</title>
+    <style>
+        header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color:black;
+  padding: 10px;
+  color:white;
+}
+
+.logo {
+  margin: 0;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar li {
+  margin: 0 10px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+  
+  
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid white;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    font-size: xx-large;
+    color:bisque;
+    
+}
+.my-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.my-form label {
+  margin-bottom: 5px;
+}
+
+.my-form input,
+.my-form textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.btn {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+
+.image-container {
+  float: left;
+  
+}
+
+.image-container img {
+
+  height: auto;width: auto;
+}
+body{
+    background-color:black;
+    color:white;
+}
+h2{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration-line: underline;
+    text-shadow: #ccc;
+    text-overflow: clip;
+    color:rgb(210, 151, 151);
+
+}
+legend h2{
+    text-align: center;
+}
+#about{
+    font-size: x-large;
+}
+#work{
+    text-align: center;
+    font-size: x-large;
+}
+footer{
+    float: right;
+}
+#video{
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+    </style>
+</head>
+<body>
+  
+    <header>
+        <nav class="navbar">
+        
+        <ul type="none">
+             <li><a href="#home">Home</a></li>
+             <li><a href="#about">About</a></li>
+             <li><a href="#resume">Resume</a></li>
+             <li><a href="#work">work</a></li>
+             <li><a href="#contact">Contact</a></li>
+             <li><a href="#video">video</a></li>
+        </ul>
+       
+
+    </nav>
+    </header>
+
+    <section id="home">
+        <h1><strong>----Welcome to My checkpoints Portfolio!!!----</strong></h1>
+        <div class="image-container">
+            <img  src="./nour2.jpg" alt="my photo" >
+        </div>
+       
+    </section>
+
+
+    <section id="about">
+        <h2>About Me!</h2>
+
+        <p>Hi, I'm Nour Besbes, a 20-year-old student in my second year of Software Engineering at the ISTIC University. I'm passionate about the web and I'm always looking for new ways to learn and grow. I'm also interested in artificial intelligence, machine learning, and big data.
+             I'm excited to see what the future holds for me and I'm confident that I can make a positive impact on the world.</p>
+    </section>
+  
+<div>
+    <section id="resume">
+        
+        <table class="table">
+            
+            <tr>
+                <th>Experience</th>
+                <th>Duration</th>
+            </tr>
+            <tr>
+                <td>Internship at Redstart specializing in web development and database management.</td>
+                <td>one month</td>
+            </tr>
+            <tr>
+                <td>Web development training in Go Mycode</td>
+                <td>for 3 weeks.</td>
+                
+            </tr>
+        </table>
+    </section>
+</div>
+    
+
+    <section id="work">
+        <h2>My Work!</h2>
+        <ul type="disc">
+            <li><a href="./HTML_CSS/index1.html">Project I</a></li>
+            <li><a href="./HTML_CSS/index2.html">Project II</a></li>
+        </ul>
+    </section>
+    <fieldset>
+        <legend><h2>Contact Me !!</h2></legend>
+        <section id="contact">
+            
+            <form action="get" class="my-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4"  placeholder="write something..."></textarea><br>
+                <button type="submit" style="align-self: flex-end;">Submit</button><br>
+            </form>
+        </section>
+    </fieldset>
+
+ 
+
+    <section id="video">
+        <h2>Video</h2>
+       <iframe src="https://www.youtube.com/watch?v=zJSY8tbf_ys" width="auto" height="auto"> The browser does not support the video tag!!</iframe>
+    </section>
+    
+    
+
+
+    <footer>
+        <p>&copy;2023 Nour Besbes . All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulaire</title>
+
+  <style>
+    h1{
+        text-align: center;
+        text-decoration-line: underline;
+        font: size 1000px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color:gray;
+
+    }
+    body{
+        font-size: xx-large;
+        color: black;
+        background-image: url("R.jpg");
+    }
+  </style>
+</head>
+<body>
+  
+  
+  <form   action="index3.html" method="post">
+    <fieldset>
+      <legend><h1>Formulaire</h1></legend>
+
+    <label for="nom">Nom :</label>
+    <input type="text" id="nom" name="nom" required><br><br>
+
+    <label for="prenom">Prénom :</label>
+    <input type="text" id="prenom" name="prenom" required><br><br>
+
+    <label for="email">Email :</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="adresse">Adresse :</label>
+    <input type="text" id="adresse" name="adresse" required><br><br>
+
+    <label for="telephone">Téléphone :</label>
+    <input type="text" id="telephone" name="telephone" required><br><br>
+
+    <label for="sexe">Sexe :</label>
+    <select id="sexe" name="sexe" required>
+      <option value="homme">Homme</option>
+      <option value="femme">Femme</option>
+      <option value="autre">Autre</option>
+    </select><br><br>
+
+    <label for="annee_naissance">Année de naissance :</label>
+    <input type="number" id="annee_naissance" name="annee_naissance" required><br><br>
+
+    <label for="nbr_personne">Nombre de Personne :</label>
+    <input type="number" id="nbr_personne" name="nbr_personne" required><br><br>
+
+    <label for="duree">Durée :</label>
+    <input type="number" id="duree" name="duree" required><br><br>
+
+    <label for="date_depart">Date Départ :</label>
+    <input type="date" id="date_depart" name="date_depart" required><br><br>
+
+    <label for="date_retour">Date du Retour :</label>
+    <input type="date" id="date_retour" name="date_retour" required><br><br>
+
+    <input type="submit" value="Soumettre" style="font-size: xx-large;float: right;" >
+
+    <input type="reset" value="Effacer" style="font-size: xx-large;float:none;">
+  </fieldset>
+  </form>
+
+</body>
+</html>
